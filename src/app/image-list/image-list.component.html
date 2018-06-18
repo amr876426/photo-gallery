@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="divoo"> 
+    <div class="input-group wow fadeInUp" id="adv-search">
+      <input type="search" name="search" [(ngModel)]="searchQuery" class="form-control " placeholder="Search for city or places "
+      />
+      <div class="input-group-btn">
+        <button (click)="searchImages(searchQuery)">
+          <p> Find Images</p>
+        </button> 
+      </div>
+    </div>
+  </div> 
+
+  <p *ngIf="searching"> fetching data </p>
+  <div class="group">
+    <div *ngFor="let image of images" class="hmo">
+      <img src="{{image.webformatURL}}">
+      <p>Tags: {{ image.tags }}</p>
+      <p>Comments: {{ image.comments }}</p>
+      <p>Likes: {{ image.likes }}</p>
+    </div>
+  </div>
+</div>

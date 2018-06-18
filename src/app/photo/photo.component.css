@@ -1,0 +1,10 @@
+.box{
+    display: flex;
+  justify-content: center;
+  padding: 20px
+}
+img{
+    border: 1px solid #333;
+    box-shadow: #333 1px 1px 8px 1px;
+    margin-bottom: 30px
+}

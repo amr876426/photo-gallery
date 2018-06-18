@@ -1,0 +1,107 @@
+img{   
+     width: 187px;
+}
+.hmo{
+
+    display: flex;
+    float: left;
+    width: 48%;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #f5f5f5;
+    margin: 5px;
+    height: 528px;
+}
+
+.button {
+    color: #fff;
+    display: flex;
+    margin-top: 29px;
+    padding: 16px 0px 0px 18px;
+    border-radius: 12px;
+    -webkit-transition: all .3s ease-in 0s;
+    transition: all .3s ease-in 0s;
+    width: 196px;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button .fa {
+    font-size: 27px;
+    margin-right: 10px;
+    margin-top: -7px;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-in 0s;
+    -moz-transition: all .3s ease-in 0s;
+    -ms-transition: all .3s ease-in 0s;
+    -o-transition: all .3s ease-in 0s;
+    transition: all .3s ease-in 0s;
+}
+
+.button p {
+    font-size: 21px;
+    margin-top: -9px;
+    margin-bottom: 7px;
+}
+
+.button:hover {
+    width: 216px;
+    background: #000;
+    border: #FFF 2px solid;
+    -webkit-transition: all .3s ease-in 0s;
+    -moz-transition: all .3s ease-in 0s;
+    -ms-transition: all .3s ease-in 0s;
+    -o-transition: all .3s ease-in 0s;
+    transition: all .3s ease-in 0s;
+    color: #fff
+}
+
+.button:hover .fa {
+    color: #ffdb4a;
+    display: block;
+    -webkit-transition: all .3s ease-in 0s;
+    -moz-transition: all .3s ease-in 0s;
+    -ms-transition: all .3s ease-in 0s;
+    -o-transition: all .3s ease-in 0s;
+    transition: all .3s ease-in 0s;
+}
+
+.input-group .form-control {
+    background-color: transparent;
+    border: 1px solid #3ba0bf;
+   color: #4189a4;
+    height: 44px;
+}
+
+.input-group input::placeholder {
+    color: #4189a4 !important;
+    opacity: 1  !important;
+}
+
+.form-control:focus {
+    border-color: #ffee78;
+}
+
+.input-group {
+    width: 700px;
+    margin-bottom:  9px;
+    margin-top: 100px
+}
+.divoo{
+    display: flex;
+    justify-content: center;
+}
+p{
+margin-bottom: 5px;
+margin-top: 9px;
+}
+button, select { 
+    background: #3a8aa2;
+}
+
+
